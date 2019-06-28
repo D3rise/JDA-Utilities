@@ -384,7 +384,7 @@ public class Paginator extends Menu
         
         ebuilder.setColor(color.apply(pageNum, pages));
         if(showPageNumbers)
-            ebuilder.setFooter("Page "+pageNum+"/"+pages, null);
+            ebuilder.setFooter("Страница "+pageNum+"/"+pages, null);
         mbuilder.setEmbed(ebuilder.build());
         if(text!=null)
             mbuilder.append(text.apply(pageNum, pages));
